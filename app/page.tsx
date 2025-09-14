@@ -1,3 +1,5 @@
+import ToDoList from './ToDoList';
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
@@ -20,7 +22,11 @@ export default function Home() {
                     image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Spaghettoni.jpg/250px-Spaghettoni.jpg"
                     caption="Spaghetti"
                 />
-            </main>
+
+            <div className="mt-8 w-full max-w-xl">
+                <ToDoList />
+            </div>
+        </main>
 
             <Footer />
         </div>
