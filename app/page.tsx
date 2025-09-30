@@ -3,11 +3,13 @@ import ToDoList from './ToDoList';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
     return (
         <div className="font-sans flex flex-col min-h-screen items-center">
             <Header />
+            <NavBar />
 
             <main className="flex flex-wrap justify-center flex-1 p-6">
                 <Card
